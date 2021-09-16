@@ -1,0 +1,84 @@
+{
+  "id": "f2ea235d-3748-4f5e-bf22-6e58b6f49413",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "#Regions Are Evil",
+      "vsixId": "4B35EF3B-C2F5-4180-8936-25621C9E1EEA"
+    },
+    {
+      "name": "Add New File",
+      "vsixId": "2E78AA18-E864-4FBB-B8C8-6186FC865DB3"
+    },
+    {
+      "name": "Base64 Encode/Decode",
+      "vsixId": "Base64VS_Extension.6d606e7a-3810-4186-9645-b6e170ff85b8"
+    },
+    {
+      "name": "Cloud Explorer for VS 2019 Preview",
+      "vsixId": "Microsoft.VisualStudio.CloudExplorer.16.0"
+    },
+    {
+      "name": "Extension Manager 2019",
+      "vsixId": "4a196712-2c3f-4730-ad1d-e7cda4185eb2"
+    },
+    {
+      "name": "File Differ",
+      "vsixId": "ea5c68d6-cdae-4e79-bd46-2a39e95bb256"
+    },
+    {
+      "name": "File Icons",
+      "vsixId": "3a7b4930-a5fb-46ec-a9b8-9610c8f953b8"
+    },
+    {
+      "name": "File Nesting",
+      "vsixId": "6c799bc4-0d4c-4172-98bc-5d464b612dca"
+    },
+    {
+      "name": "Folder To Solution Folder",
+      "vsixId": "478d788e-8e9d-402a-ac64-e679658a0045"
+    },
+    {
+      "name": "Indent Guides",
+      "vsixId": "IndentGuide.SteveDower.0a67eb97-becd-451f-aa29-851d9fe5dd2b"
+    },
+    {
+      "name": "Live Share",
+      "vsixId": "Microsoft.VisualStudio.LiveShare"
+    },
+    {
+      "name": "Markdown Editor",
+      "vsixId": "9ca64947-e9ca-4543-bfb8-6cce9be19fd6"
+    },
+    {
+      "name": "ML.NET Model Builder",
+      "vsixId": "FE96D051-645F-4309-AE99-107A776B0DA2"
+    },
+    {
+      "name": "Open Command Line",
+      "vsixId": "f4ab1e64-5d35-4f06-bad9-bf414f4b3bbb"
+    },
+    {
+      "name": "Power Commands for Visual Studio",
+      "vsixId": "PowerCommands.3ecdd89b-f985-483d-8c94-be37de4dc083"
+    },
+    {
+      "name": "SlowCheetah",
+      "vsixId": "9eb9f150-fcc9-4db8-9e97-6aef2011017c"
+    },
+    {
+      "name": "Target Framework Migrator",
+      "vsixId": "TargetFrameworkMigrator..4f7666b9-e62c-46a1-af25-21ab8742ef00"
+    },
+    {
+      "name": "Visual Studio Spell Checker (VS2017 and Later)",
+      "vsixId": "43EA967E-0DE2-4136-8E52-C6DCFB5C2748"
+    },
+    {
+      "name": "Web Live Preview (Preview)",
+      "vsixId": "Microsoft.WebTools.BrowserLink.WebLivePreview"
+    }
+  ]
+}
