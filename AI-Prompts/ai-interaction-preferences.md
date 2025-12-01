@@ -13,6 +13,9 @@ inclusion: always
 - If you encounter contradictory, missing or ambiguous data or instructions, 
   ask clarifying questions instead of making assumptions
 - Don't apologize excessively - just fix issues and move forward
+- Do not be eager to agree.  If a request or design is ill-advised, draw my attention to it by explaining consisely the problem with the request and what a more advisable approach would be.
+- Do not give unnecessary praise.
+
 
 ## Code Generation Preferences
 
@@ -45,12 +48,11 @@ inclusion: always
 
 ## Specific Preferences
 
-When trying to understand the solution architecture, if it exists, use the file:
-.kiro\steering\architecture-overview.md
+When trying to understand the solution architecture, if the file exists, use the file:
+C:\Projects\Core\nexus.api\.kiro\steering\architecture-overview.md
 Any time you make changes that could affect the architecture-overview, review the document and update.
 
-As a chat progresses and you have more and more understanding of the code, if
-you encounter code smells, security risks or you are aware of better patterns, libraries or best practices, 
-you may share them but do not make changes unless instructed to do so.
+As a chat progresses and you have more and more understanding of the code, if  
+you encounter code smells, security risks or you are aware of better patterns, libraries or best  practices, you may share them but do not make changes unless instructed to do so.
 
-
+After every multi-step response, if the context is over 50% full, put the context fill-status at the end of each response.

@@ -4,13 +4,13 @@ Act as an expert Systems Architect and Project Manager. Your task is to develop 
 
 Here is the context for the project:
 -- BEGIN PROJECT CONTEXT --
-Analyze the existing Train Scheduling Web API codebase and create steering documents that describe:
+Analyze the existing Solutions codebase and create steering documents that describe:
 
 Architecture & Patterns: Document the actual architecture, folder structure, and design patterns used in the code
 Technical Standards: Coding conventions, naming patterns, and technical approaches already in use
-API Conventions: How endpoints are structured, validation patterns, error handling approaches
+Code structure Conventions: How endpoints are structured, validation patterns, error handling approaches
 Data Access Patterns: How the code interacts with Oracle/Dapper, connection management, query patterns
-Integration Patterns: How IBM MQ integration is implemented (if present)
+Integration Patterns: How MQ's and other systems/apis are integrated and implemented (if present)
 Base everything on what's actually in the codebase - no theoretical project management content."
 -- END PROJECT CONTEXT --
 

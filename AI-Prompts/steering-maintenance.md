@@ -86,6 +86,66 @@ This document explains how to keep the steering documents up-to-date as the code
 3. **You notice AI making repeated mistakes**
    - Add specific guidance to prevent the issue
 
+### Update spec `tasks.md` Known Issues section when:
+
+1. **A task introduces a compilation or runtime error that will be fixed by a later task**
+   - Add to "Active Issues" section with:
+     - Error message/type
+     - Location (file path)
+     - Root cause explanation
+     - Which task will resolve it
+     - Status note (e.g., "Expected - do not fix manually")
+
+2. **A task resolves a known issue**
+   - Move the issue from "Active Issues" to "Resolved Issues"
+   - Add resolution details (task number, date if relevant)
+   - Keep resolved issues for reference during the feature implementation
+
+3. **Completing any task in a spec**
+   - Review "Active Issues" to see if the completed task resolved any issues
+   - Update issue status accordingly
+   - If new errors appear, document them if they're expected to be resolved by future tasks
+
+4. **Starting work on a new task**
+   - Check "Active Issues" to understand expected compilation/runtime errors
+   - Don't attempt to fix issues that are marked as "Expected"
+
+### Update spec `tasks.md` Implementation Notes section when:
+
+1. **Making temporary changes during task implementation**
+   - Add entry to "Implementation Notes" section at the end of tasks.md
+   - Document what was changed, where, why, and which task will address it
+   - Include file paths and line numbers for easy reference
+   - Mark with clear "Action Required" pointing to the resolving task
+
+2. **Completing a task that resolves temporary changes**
+   - Mark the corresponding Implementation Notes entry as resolved
+   - Add resolution details (task number, what was done)
+   - Remove the entry after verification that the change is permanent
+
+3. **At checkpoint tasks**
+   - Review all Implementation Notes entries
+   - Verify which ones have been resolved
+   - Clean up resolved entries
+   - Ensure remaining entries are still accurate
+
+4. **Format for Implementation Notes entries**:
+   ```markdown
+   ### Temporary Changes Made During Task X
+   
+   **Date**: [Task number and brief description]
+   
+   **Changes**:
+   1. **[Description of change]**:
+      - Location: [File path and line number if applicable]
+      - Reason: [Why this temporary change was needed]
+      - **Action Required**: [Which task will address this]
+   
+   **Status**: [Current status and expected resolution]
+   ```
+
+**Purpose**: The Implementation Notes section tracks temporary workarounds, commented-out code, or interim solutions that are needed to keep the build working while implementing a multi-task feature. This is different from Known Issues which tracks expected compilation errors.
+
 ## Maintenance Checklist
 
 When making significant changes to the codebase, review these documents:
@@ -96,6 +156,8 @@ When making significant changes to the codebase, review these documents:
 - [ ] Does `coding-conventions.md` match current patterns?
 - [ ] Does `architecture-overview.md` reflect current architecture?
 - [ ] Are there new patterns that should be documented?
+- [ ] If working on a spec, is the `tasks.md` Known Issues section up to date?
+- [ ] If working on a spec, is the `tasks.md` Implementation Notes section up to date?
 
 ## Auto-Update Triggers
 
@@ -159,6 +221,10 @@ When working with this codebase:
 5. **Update documents** when making structural changes
 6. **Ask before** introducing patterns not documented here
 7. **Flag inconsistencies** between code and documentation
+8. **When working on spec tasks**, check the Known Issues section in `tasks.md` to understand expected errors
+9. **After completing a spec task**, update the Known Issues section if the task resolved or introduced any tracked issues
+10. **When making temporary changes during spec implementation**, document them in the Implementation Notes section at the end of `tasks.md`
+11. **At checkpoint tasks**, review and clean up the Implementation Notes section
 
 ## Document Ownership
 
