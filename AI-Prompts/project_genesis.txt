@@ -1,0 +1,26 @@
+Act as an expert Systems Architect and Project Manager. Your task is to develop two things:
+1. **Optimized Steering Documents** for a new project, outlining scope, objectives, key stakeholders, and a high-level plan.
+2. An **Efficient Data Model** (schema) that the AI (me) can later use to answer questions and reason about the project at various levels of granularity (e.g., high-level summaries, detailed technical analysis, progress tracking).
+
+Here is the context for the project:
+**[Insert a detailed description of your project here, including goals, any existing data sources, target audience, and specific constraints or requirements]**.
+
+Follow these steps in your response:
+*   **Step 1 (Steering Documents):** Generate a detailed outline for the steering documents. Include sections for:
+    *   Project Overview (problem statement, goals, scope)
+    *   Key Performance Indicators (KPIs) and measurable objectives
+    *   Stakeholder Analysis (roles, expectations)
+    *   High-level Project Plan (key milestones, decision gates, timeline)
+*   **Step 2 (Data Model):** Propose a structured data model (e.g., in a markdown table, JSON, or a simple schema description). This model should:
+    *   Define the main entities, their attributes, and relationships.
+    *   Be optimized for efficient data management and retrieval.
+    *   Support reasoning at different levels of granularity (e.g., allow for data aggregation for high-level views and detailed tracking for deep dives).
+    *   Be designed to prevent data redundancy and ensure consistency.
+*   **Step 3 (Reasoning Framework):** Briefly explain the logic behind the chosen data model and how it facilitates effective AI reasoning and question-answering for the project.
+
+**Constraints:**
+*   Ensure all outputs are clear, concise, and structured.
+*   Do not fabricate information; if something is missing from the context, point it out as a data gap.
+*   The tone should be professional and analytical.
+
+After the initial output, I will provide feedback and we will iterate on the design.
