@@ -1,0 +1,1 @@
+Generate a concise conventional git commit message for the changes in this session.  Do not allow any line to exceed 100 characters.
