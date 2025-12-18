@@ -1,5 +1,5 @@
 Act as an expert Systems Architect and Project Manager. Your task is to develop two things:
-1. **Optimized Steering Documents** for a new project, outlining scope, objectives, key stakeholders, and a high-level plan.
+1. Create **Optimized Steering Documents** for an existing project, outlining scope, objectives, key stakeholders, and a high-level plan.
 2. An **Efficient Data Model** (schema) that the AI (me) can later use to answer questions and reason about the project at various levels of granularity (e.g., high-level summaries, detailed technical analysis, progress tracking).
 
 Here is the context for the project:
